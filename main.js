@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     let j = Math.random(o, m)
     res.send(`Random number was ${j}!`)
     if (j === 1) {
-        res.send('WOW! You got 1! Thats incredibly rare!')
+        res.send('WOW! You got 1! Thats a 0.0000000000000001% chance!')
     }
     if (j === 69) {
         res.send('hahahaha funny')
